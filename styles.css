@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root {
+  --main-font: 'Merriweather', serif;
+  --logo-font: 'Carattere', serif;
+  --main: #057005;
+  --main-light: #a3f5a3;
+  --support: #a79115;
+  --sepia: #704214;
+  --dark: #111;
+  --light: #fffcfa;
+  --grey-dark: #333;
+  --grey-medium: #989898;
+  --grey-light: #ccc;
+  --grey-light-extra: #eee;
+}
