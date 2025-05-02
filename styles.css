@@ -57,6 +57,10 @@ html {
   align-items: center;
 }
 
+.menu {
+  display: none;
+}
+
 .nav-list { 
   display: flex;
 }
