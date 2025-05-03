@@ -37,6 +37,10 @@ html {
   cursor: pointer
 }
 
+.front-page {
+
+}
+
 .section-1 {
   width: 100%;
   height: 65vh;
@@ -51,7 +55,7 @@ html {
 .navbar-wrapper {
   width: 100%;
   height: 8rem;
-  background: rgba(0, 0, 0, 0.4);
+  border-bottom: 0.1rem solid red;
   display: flex;
   justify-content: center;
 }
@@ -77,17 +81,17 @@ html {
   padding: 2rem;
   display: flex;
   align-items: center;
-  /* transition: border-bottom 0.1s; */
+  transition: border-bottom 0.1s;
 }
 
-/* .nav-list-item:hover {
-  border-bottom: 0.2rem solid #fff;
-} */
+.nav-list-item:hover {
+  border-bottom: 0.2rem solid green;
+}
 
 .nav-dropdown {
   width: 100%;
   height: 20rem;
-  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #ff4500, #ffd700, #ff4500);
   position: absolute;
   top: 8rem;
   left: 0;
@@ -135,6 +139,7 @@ html {
 .nav-list-link i { 
   font-size: 1.5rem;
   margin-left: 0.5rem;
+  transition: transform 0.3s
 }
 
 .navbar-btn {

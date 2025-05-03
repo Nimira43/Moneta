@@ -48,7 +48,7 @@ if (window.innerWidth < 1000) {
   })
 } else {
   dropdownItems.forEach(dropdownItem => {
-    dropdownItem, addEventEventListener('mouseover', () => {
+    dropdownItem, addEventListener('mouseover', () => {
       dropdownItem.lastElementChild.style.cssText = 'opacity: 1, visibility: visible'
       document.querySelector('.navbar-wrapper').style.background = 'linear-gradient(to right, #ff4500, #ffd700, #ff4500)'
       dropdownItem.firstElementChild.firstElementChild.style.transform = 'rotate(180deg)'
