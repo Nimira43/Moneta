@@ -1,22 +1,22 @@
 document.querySelectorAll('.logo').forEach(logo => {
   logo.addEventListener('click', () => {
-    document.querySelector('front-page').style.display = 'block'
-    document.querySelector('login-page').style.display = 'none'
-    document.querySelector('signup-page').style.display = 'none'
+    document.querySelector('.front-page').style.display = 'block'
+    document.querySelector('.login-page').style.display = 'none'
+    document.querySelector('.signup-page').style.display = 'none'
   })
 })
 document.querySelectorAll('.login').forEach(loginBtn => {
   loginBtn.addEventListener('click', () => {
-    document.querySelector('front-page').style.display = 'none'
-    document.querySelector('login-page').style.display = 'block'
-    document.querySelector('signup-page').style.display = 'none'
+    document.querySelector('.front-page').style.display = 'none'
+    document.querySelector('.login-page').style.display = 'block'
+    document.querySelector('.signup-page').style.display = 'none'
   })
 })
 document.querySelectorAll('.signup').forEach(signupBtn => {
   signupBtn.addEventListener('click', () => {
-    document.querySelector('front-page').style.display = 'none'
-    document.querySelector('login-page').style.display = 'none'
-    document.querySelector('signup-page').style.display = 'flex'
+    document.querySelector('.front-page').style.display = 'none'
+    document.querySelector('.login-page').style.display = 'none'
+    document.querySelector('.signup-page').style.display = 'flex'
   })
 })
 
@@ -50,7 +50,7 @@ if (window.innerWidth < 1000) {
   dropdownItems.forEach(dropdownItem => {
     dropdownItem, addEventEventListener('mouseover', () => {
       dropdownItem.lastElementChild.style.cssText = 'opacity: 1, visibility: visible'
-      document.querySelector('.navbar-wrapper').style.background = '#111111'
+      document.querySelector('.navbar-wrapper').style.background = 'linear-gradient(to right, #ff4500, #ffd700, #ff4500)'
       dropdownItem.firstElementChild.firstElementChild.style.transform = 'rotate(180deg)'
     })
     dropdownItem, addEventEventListener('mouseout', () => {
