@@ -50,10 +50,11 @@ if (window.innerWidth < 1000) {
   dropdownItems.forEach(dropdownItem => {
     dropdownItem, addEventListener('mouseover', () => {
       dropdownItem.lastElementChild.style.cssText = 'opacity: 1, visibility: visible'
-      document.querySelector('.navbar-wrapper').style.background = 'linear-gradient(to right, #ff4500, #ffd700, #ff4500)'
+      document.querySelector('.navbar-wrapper').style.backgroundColor = 'rgba(0, 0, 0, 0.1)'
+      document.querySelector('.navbar-wrapper').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
       dropdownItem.firstElementChild.firstElementChild.style.transform = 'rotate(180deg)'
     })
-    dropdownItem, addEventEventListener('mouseout', () => {
+    dropdownItem, addEventListener('mouseout', () => {
       dropdownItem.lastElementChild.style.cssText = 'opacity: 0, visibility: hidden'
       document.querySelector('.navbar-wrapper').style.background = 'none'
       dropdownItem.firstElementChild.firstElementChild.style.transform = 'rotate(0)'
