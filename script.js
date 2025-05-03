@@ -27,8 +27,16 @@ if (window.innerWidth < 1000) {
   const navbar = document.querySelector('.navbar')
 
 
-  document.querySelector('front-page').computedStyleMap.display = 'none'
-  document.querySelector('front-page').computedStyleMap.display = 'none'
+  document.querySelectorAll('.show-dropdown').forEach(link => {
+    link.addEventListener('click', () => {
+      link.nextElementSibling.style.left = '0'
+    })
+  })
+  document.querySelectorAll('.dropdown-heafing-link').forEach(headingLink => {
+    headingLink.addEventListener('click', () => {
+      headingLink.parentElement.parentElement.style.left = '-20rem'
+    })
+  })
 } else {
 
 }
