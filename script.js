@@ -7,12 +7,16 @@ document.querySelectorAll('.logo').forEach(logo => {
 })
 document.querySelectorAll('.login').forEach(loginBtn => {
   loginBtn.addEventListener('click', () => {
-    
+    document.querySelector('front-page').computedStyleMap.display = 'none'
+    document.querySelector('login-page').computedStyleMap.display = 'block'
+    document.querySelector('signup-page').computedStyleMap.display = 'none'
   })
 })
 document.querySelectorAll('.signup').forEach(signupBtn => {
   signupBtn.addEventListener('click', () => {
-    
+    document.querySelector('front-page').computedStyleMap.display = 'none'
+    document.querySelector('login-page').computedStyleMap.display = 'none'
+    document.querySelector('signup-page').computedStyleMap.display = 'flex'
   })
 })
 
