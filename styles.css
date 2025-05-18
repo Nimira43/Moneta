@@ -34,11 +34,24 @@ html {
   font-family: var(--logo-font);
   font-size: 3.5rem;
   color: var(--light);
-  cursor: pointer
+  cursor: pointer;
+}
+
+.light-btn {
+  width: 35rem;
+  height: 5rem;
+  background-color: var(--light);
+  color: var(--dark);
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .front-page {
-
+  /* display: none; */
 }
 
 .section-1 {
