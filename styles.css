@@ -364,3 +364,16 @@ html {
     font-size: 45%;
   }
 }
+
+@media (max-width: 550px) {
+  .navbar-logo {
+    display: none;
+  }
+  .banner-heading {
+    font-size: 4.5rem;
+  }
+  .banner-paragraph {
+    line-height: 1.2;
+  }
+}
+
