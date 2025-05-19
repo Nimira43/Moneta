@@ -319,6 +319,27 @@ html {
     width: 100%;
     margin: 1rem 1rem 0 1rem;
   }
+  .dropdown-heading {
+    display: block;
+  }
+  .dropdown-heading a {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: var(--light);
+  }
+  .dropdown-heading a i {
+    font-size: 1.5rem;
+    transform: rotate(90deg);
+    margin-right: 1rem;
+  }
+  .nav-dropdown-link-1 {
+    font-size: 1.4rem;
+  }
+  .nav-dropdown-link-2 {
+    display: none;
+  }
   
+
+
 
 }
