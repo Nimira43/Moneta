@@ -338,7 +338,28 @@ html {
   .nav-dropdown-link-2 {
     display: none;
   }
-  
+  .nav-list-item {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+    margin: 0.4rem 0;
+  }
+  .nav-list-item:hover {
+    border-bottom: none;
+  }
+  .nav-list-link {
+    font-size: 1.4rem;
+  }
+  .nav-list-item i {
+    font-size: 1.2rem;
+    transform: rotate(-90deg);
+  }
+  .navbar-buttons {
+    margin-left: auto;
+  }
+
+
+
 
 
 
