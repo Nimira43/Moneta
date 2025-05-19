@@ -164,6 +164,7 @@ html {
   border-radius: 0.3rem;
   border: 0.1rem solid var(--light);
   font-size: 1.4rem;
+  text-transform: uppercase;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
@@ -274,7 +275,7 @@ html {
   }
   .change .line-1 {
     transform: rotate(45deg);
-    background-color: var(--grey-dark);
+    background-color: var(--light);
   }
   .change .line-2 {
     opacity: 0;
