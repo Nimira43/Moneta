@@ -203,4 +203,17 @@ html {
   }
 } 
 
-@media (max-width: 1400px)
+@media (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar {
+    width: 100rem;
+  }
+  .section-1 {
+    height: 70vh;
+  }
+  .banner-paragraph {
+    width: 70%;
+  }
+}
