@@ -180,3 +180,17 @@ html {
   text-align: center;
 }
 
+.banner-heading {
+  font-size: 6rem;
+  font-weight: 400;
+  color: red;
+  margin-bottom: 3rem;
+}
+
+.banner-paragraph {
+  font-size: 1.8rem;
+  color: red;
+  width: 50%;
+  margin: 0 auto 4rem auto;
+}
+
