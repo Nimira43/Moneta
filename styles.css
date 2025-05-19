@@ -194,3 +194,13 @@ html {
   margin: 0 auto 4rem auto;
 }
 
+@media (max-width: 1500px) {
+  .nav-dropdown {
+    padding: 0 25rem;
+  }
+  .nav-dropdown-item {
+    margin: 2rem 6rem;
+  }
+} 
+
+@media (max-width: 1400px)
