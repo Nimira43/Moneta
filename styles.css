@@ -253,4 +253,23 @@ html {
     justify-content: space-evenly;
     transition: transform 0.6s ease-in-out;
   }
+  .change.menu {
+    transform: translateX(16rem);
+    position: fixed;
+    top: 2rem;
+    left: 6rem;
+    background-color: pink;
+  }
+  .menu-icon {
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .line {
+    width: 2rem;
+    height: 0.1rem;
+    background-color: #fff;
+    transform-origin: left;
+  }
 }
