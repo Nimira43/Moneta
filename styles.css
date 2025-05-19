@@ -173,4 +173,10 @@ html {
   color: var(--dark);
 }
 
+.banner {
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
 
