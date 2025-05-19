@@ -217,3 +217,13 @@ html {
     width: 70%;
   }
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1100px) {
+  .nav-dropdown-item {
+    margin: 2rem 3.4rem;
+  }
+}
