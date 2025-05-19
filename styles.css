@@ -246,7 +246,7 @@ html {
   .menu {
     width: 11rem;
     height: 4rem;
-    border-radius: 3rem;
+    border-radius: 0.3rem;
     border: 0.1rem solid var(--light);
     cursor: pointer;
     display: flex;
@@ -283,10 +283,11 @@ html {
   }
   .change .line-3 {
     transform: rotate(-45deg);
-    background-color: var(--grey-dark);
+    background-color: var(--light);
   }
   .menu span {
     font-size: 1.8rem;
+    text-transform: uppercase;
     color: var(--light);
   }
   .change .menu span {
