@@ -183,13 +183,13 @@ html {
 .banner-heading {
   font-size: 6rem;
   font-weight: 400;
-  color: red;
+  color: var(--light);
   margin-bottom: 3rem;
 }
 
 .banner-paragraph {
   font-size: 1.8rem;
-  color: red;
+  color: var(--light);
   width: 50%;
   margin: 0 auto 4rem auto;
 }
@@ -246,7 +246,7 @@ html {
     width: 11rem;
     height: 4rem;
     border-radius: 3rem;
-    border: 0.1rem solid blue;
+    border: 0.1rem solid var(--light);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -258,7 +258,7 @@ html {
     position: fixed;
     top: 2rem;
     left: 6rem;
-    background-color: pink;
+    background-color: var(--grey-light-extra);
   }
   .menu-icon {
     height: 1.5rem;
@@ -272,4 +272,17 @@ html {
     background-color: #fff;
     transform-origin: left;
   }
+  .change .line-1 {
+    transform: rotate(45deg);
+    background-color: var(--grey-light);
+  }
+  .change .line-2 {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .change .line-3 {
+    transform: rotate(-45deg);
+    background-color: var(--grey-light);
+  }
+
 }
