@@ -274,7 +274,7 @@ html {
   }
   .change .line-1 {
     transform: rotate(45deg);
-    background-color: var(--grey-light);
+    background-color: var(--grey-dark);
   }
   .change .line-2 {
     opacity: 0;
@@ -282,7 +282,28 @@ html {
   }
   .change .line-3 {
     transform: rotate(-45deg);
-    background-color: var(--grey-light);
+    background-color: var(--grey-dark);
+  }
+  .menu span {
+    font-size: 1.8rem;
+    color: var(--light);
+  }
+  .change .menu span {
+    color: var(--grey-dark);
+  }
+  .nav-list,
+  .nav-dropdown-personal,
+  .nav-dropdown-business {
+    position: fixed;
+    top: 0;
+    left: -20rem;
+    width: 20rem;
+    height: 100vh;
+    background: var(--dark);
+    flex-direction: column;
+    padding-top: 2rem;
+    z-index: 200;
+    transition: left 0.6s ease-in-out;
   }
 
 }
