@@ -305,5 +305,20 @@ html {
     z-index: 200;
     transition: left 0.6s ease-in-out;
   }
+  .change .nav-list {
+    left: 0;
+  }
+  .nav-dropdown-personal,
+  .nav-dropdown-business {
+    opacity: 1;
+    visibility: visible;
+    padding: 1rem;
+    justify-content: flex-start;
+  }
+  .nav-dropdown-item {
+    width: 100%;
+    margin: 1rem 1rem 0 1rem;
+  }
+  
 
 }
