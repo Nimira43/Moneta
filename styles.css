@@ -357,10 +357,10 @@ html {
   .navbar-buttons {
     margin-left: auto;
   }
+}
 
-
-
-
-
-
+@media (max-width: 800px) {
+  html { 
+    font-size: 45%;
+  }
 }
